@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background: url(../../img/developer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid lightgray;
+}
+.footer{
+    color: #8892b0;
+    margin-bottom: 0;
+    margin-top: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.dAb{
+    color:red ;
+    margin: 0;
+}

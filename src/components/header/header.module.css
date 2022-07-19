@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+.container{
+    width: 100%;
+    max-width: 1150px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text{
+    font-size: 15px;
+    color:#ccd6f6;
+    height: 100vh;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1{
+    display: block;
+    font-size: 45px;
+    font-family:"Fira Code";
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 32ch;
+    animation: typing 4s steps(32), blink .3s infinite step-end alternate;
+    overflow: hidden;
+}
+.h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+@keyframes typing{
+    from {width: 0}
+}
+@keyframes blink{
+    50% {border-color : transparent}
+}

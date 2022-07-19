@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    height: auto;
+    padding-top: 5rem;
+    white-space: break-spaces;
+}
+.hrAbout{
+    background-color: #ccd6f6;
+    width: 7rem;
+    border: solid 1.5px #ccd6f6;
+}
+
+.hrCards{
+    background-color: #ccd6f6;
+    width: 7%;
+}
+
+ion-icon {
+    color: #8892b0;
+    font-size: 1.5rem;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  }
