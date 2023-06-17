@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {AppBar,Box, Toolbar, IconButton,Container,Avatar,Button,Tooltip} from '@mui/material';
 import {ThemeProvider,createTheme } from '@mui/material/styles'
-import img from '../../img/profile2.jpg'
+import {profile} from '../../img/index.js'
 
 const pages = [{name:'About', href: '#About'}, {name:'Projects', href:'#Projects'}, {name:'Contact', href:'#Contact'}];
 
@@ -53,7 +53,7 @@ const ResponsiveAppBar = () => {
             <Box >
               <Tooltip title="Julián Domínguez">
                 <IconButton sx={{mr:20 ,p: 2 }}>
-                  <Avatar alt="JD" src={img} />
+                  <Avatar alt="JD" src={profile} />
                 </IconButton>
               </Tooltip>
             </Box>

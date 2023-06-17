@@ -24,7 +24,7 @@ export const Header = ()=>{
             fontFamily='Raleway'
             // className={style.h2}
             >
-                Software Developer
+                Frontend Developer
             </Typography>
 
         </Box>

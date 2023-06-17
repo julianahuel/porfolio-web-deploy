@@ -1,15 +1,7 @@
 import { Accordion, AccordionDetails, AccordionSummary, Box, Container, Typography } from "@mui/material";
 import { ExpandMore } from "@mui/icons-material";
 import style from './about.module.css'
-import worker from '../../img/worker.png'
-import team from '../../img/Teamwork.png'
-import study from '../../img/study.png'
-import talk from '../../img/talk.png'
-import me from '../../img/me.png'
-import react from '../../img/react-logo.png'
-import redux from '../../img/redux.png'
-import postgres from '../../img/postgresql.png'
-import sequelize from '../../img/sequelize.png'
+import {worker, team, study, talk, me, react, redux, vue, vuex, postgresql, seq} from '../../img/index.js'
 import React from 'react'
 
 export function About (){
@@ -121,6 +113,20 @@ export function About (){
                                 </Box>
                             </AccordionDetails>
                         </Accordion>
+
+                        {/* Vue */}
+                        <Accordion disableGutters='true' sx={{width:'175px' ,color:'white', backgroundColor:'#00395a93'}}>
+                            <AccordionSummary expandIcon={<ExpandMore/>} >
+                                <img height='20px' src={vue} alt='Vue'/>
+                                <Typography marginLeft={1}>Vue</Typography>
+                            </AccordionSummary>
+                            <AccordionDetails sx={{padding:'5px', marginTop:'0', paddingTop:'0'}}>
+                                <Box sx={{display:'flex', flexDirection:'row', justifyContent:'center'}}>
+                                    <img height='20px' src={vuex} alt='Redux'/>
+                                    <Typography paddingLeft='.5rem' paddingRight='.5rem'>Vuex</Typography>
+                                </Box>
+                            </AccordionDetails>
+                        </Accordion>
                         
                         {/* Node */}
                         <Accordion disableGutters='true' sx={{width:'175px' ,color:'white', backgroundColor:'#00395a93'}}>
@@ -139,12 +145,12 @@ export function About (){
                         {/* Postgres */}
                         <Accordion disableGutters='true' sx={{width:'175px' ,color:'white', backgroundColor:'#00395a93'}}>
                             <AccordionSummary expandIcon={<ExpandMore/>} >
-                                <img src={postgres} alt='postgres'/>
+                                <img src={postgresql} alt='postgres'/>
                                 <Typography marginLeft={1}>PostgreSQL</Typography>
                             </AccordionSummary>
                             <AccordionDetails sx={{padding:'5px', marginTop:'0', paddingTop:'0'}}>
                                 <Box sx={{display:'flex', flexDirection:'row', justifyContent:'center'}}>
-                                    <img height='20px' src={sequelize} alt='Sequelize'/>
+                                    <img height='20px' src={seq} alt='Sequelize'/>
                                     <Typography paddingLeft='.5rem' paddingRight='.5rem'>Sequelize</Typography>
                                 </Box>
                             </AccordionDetails>

@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 .header{
-    background: url(../../img/developer.jpg);
+    background: url(../../img/pics/developer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 2px solid lightgray;
